@@ -1,0 +1,187 @@
+/*---Global Styles---*/
+html {
+	font-size: 20px;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #F5F7FA; 
+}
+h2 {
+	font-size: 1.8rem;
+}
+/*---Header Styles---*/
+.topbar {
+	background-color: #131F3F;
+}
+.topbar ul {
+	list-style: none;
+	text-align: right;
+	margin-bottom: 0;
+}
+.topbar li {
+	display: inline-block;
+} 
+.topbar a {
+	color: #FFF;
+	font-size: .65rem;
+	padding: .6rem .4rem;
+}
+.topbar a:hover {
+	text-decoration: none;
+}
+nav {
+	background-color: #FFF;
+	padding-top: 1.1rem;
+	padding-bottom: 1.1rem;
+	align-items: center;
+}
+nav img {
+	height: 2.778rem;
+}
+.navbar-nav {
+	margin-right: 5.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #333;
+	font-size: .65rem;
+	font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #FF8000;
+	text-decoration: none;
+}
+.navbar-light .navbar-toggler {
+	border: 2px solid #888;
+}
+.navbar-toggler {
+	font-size: 1rem;
+}
+button:focus {
+	outline: none;
+}
+@media (max-width: 576px) {
+	nav img {
+		height: 2rem;
+	}
+}
+/*---Hero Styles---*/
+.hero {
+	height: 425px;
+	margin-bottom: 2rem;
+	background-image: url(assets/student-md.jpg);
+	background-size: cover;
+}
+@media (min-width: 992px) {
+	.hero {
+		height: 525px;
+		background-image: url(assets/student-xl.jpg);
+	}
+}
+.hero-content {
+	padding-top: 3rem;
+}
+@media (min-width: 576px) {
+	.hero-content {
+		padding-top: 6rem;
+	}
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+.hero a {
+	height: 50px;
+	padding: .7rem 1rem;
+	background-color: #FF8000;
+	color: #FFF;
+	font-size: .75rem;
+	text-transform: uppercase;
+	transition: .2s;
+}
+.hero a:hover {
+	text-decoration: none;
+	background-color: #CA4700;
+}
+/*---Form Styles---*/
+label {
+	color: #888;
+}
+input {
+	width: 15rem;
+	border: none;
+	margin-bottom: 2rem;
+}
+input:focus {
+	border: 1px solid #FF8000;
+	outline: none;
+}
+.select-style {
+	width: 15rem;
+	border-radius: 0px;
+	overflow: hidden;
+	background: #FFF;
+}
+.select-style select {
+	color: #888;
+	padding: 5px 8px;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	background: transparent;
+	background-image: none;
+	-webkit-appearance: none; 
+}
+select:focus {
+	border: 1px solid #FF8000;
+	outline: none;
+}
+.form-button {
+	height: 2.5rem;
+	padding: .7rem 5rem;
+	background-color: #FF8000;
+	border: none;
+	color: #FFF;
+	font-size: .75rem;
+	text-transform: uppercase;
+	margin-top: 2rem;
+}
+/*---Thank You Message Styles*/
+.thankyou-style {
+	text-align: center;
+	background: #FFF;
+	padding: 4rem 3rem;
+}
+.thankYou {
+	display: none;
+}
+/*---Footer Styles---*/
+footer {
+	margin-top: 3rem;
+	padding: 3rem 2rem;
+	background-color: #FFF;
+}
+footer ul {
+	padding-left: 0;
+	list-style: none;
+}
+footer li, span{
+	font-size: .75rem;
+	color: #888;
+	margin-left: .25rem;
+	display: inline-block;
+}
+footer a {
+	color: #888;
+}
+footer a:hover{
+	color: #888;
+	text-decoration: none;
+}
+
+
+
+
